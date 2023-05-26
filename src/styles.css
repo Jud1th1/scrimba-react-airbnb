@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: hsl(210, 22%, 49%);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+/*Nav Styling*/
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+/*Menu Styling*/
+.menu--items {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none;
+  color: #8d99ae;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  color: #8d99ae;
+}
+
+.menu--items > li:hover {
+  color: #ef476f;
+  box-shadow: rgba(46, 196, 182, 0.4) 0px 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+}
+
+.seacrh--icon {
+  width: 30px;
+  padding: 2px;
+  margin: 0.5em;
+}
+/*Hero Styling*/
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 46%,
+    rgba(232, 193, 101, 1) 72%
+  );
+}
+
+.hero--photo {
+  max-width: 80%;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+/*Cards Styling*/
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card--title {
+  font-size: 12px;
+  font-weight: 800px;
+  text-transform: uppercase;
+}
+
+.card--description {
+  font-size: 14px;
+  margin: 2.5px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/*footer*/
+footer {
+  height: 70px;
+  width: 100%;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #918e9b;
+}
