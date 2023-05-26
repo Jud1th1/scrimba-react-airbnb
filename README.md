@@ -11,6 +11,7 @@ Created with CodeSandbox
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Resources](#resources)
 
 
 ## Overview
@@ -61,3 +62,6 @@ Users should be able to:
 ### Continued development
 
 I plan on adding functionality to the page such as having the ability to add a listing to favorites and a functional search bar. 
+
+### Resources
+https://scrimba.com/playlist/pqQgrcN
